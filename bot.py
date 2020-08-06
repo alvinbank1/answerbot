@@ -85,5 +85,4 @@ async def on_message(message, randum=None):
                 i += 1
 
 
-access_token = os.environ["BOT_TOKEN"]
-client.run(access_token)
+client.run("봇 토큰 입력란")
